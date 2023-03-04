@@ -15,9 +15,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showPopoup(_ sender: Any) {
-        let sb = UIStoryboard(name: "Demo1ViewController", bundle: nil)
+        let sb = UIStoryboard(name: "DemoViewController", bundle: nil)
         guard let controller = sb.instantiateInitialViewController() else { return }
         controller.transitioningType = .popup
         present(controller, animated: true)
+    }
+
+    @IBAction func showPopoupWithNavigation(_ sender: Any) {
+        let sb = UIStoryboard(name: "DemoViewController", bundle: nil)
+        guard let controller = sb.instantiateInitialViewController() else { return }
+        let navController = UINavigationController(rootViewController: controller)
+        navController.transitioningType = .popup
+        present(navController, animated: true)
     }
 }

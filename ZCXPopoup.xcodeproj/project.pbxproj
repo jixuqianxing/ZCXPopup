@@ -18,8 +18,8 @@
 		EE1F378B29AF4B7300F52688 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F378A29AF4B7300F52688 /* TransitionAnimator.swift */; };
 		EE1F378D29AF4BFE00F52688 /* TransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F378C29AF4BFE00F52688 /* TransitioningDelegate.swift */; };
 		EE1F378F29AF4C5500F52688 /* UIViewController+ZCXPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F378E29AF4C5500F52688 /* UIViewController+ZCXPopup.swift */; };
-		EE1F379229AF4FE800F52688 /* Demo1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F379129AF4FE800F52688 /* Demo1ViewController.swift */; };
-		EE1F379429AF4FF700F52688 /* Demo1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1F379329AF4FF700F52688 /* Demo1ViewController.storyboard */; };
+		EE1F379229AF4FE800F52688 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F379129AF4FE800F52688 /* DemoViewController.swift */; };
+		EE1F379429AF4FF700F52688 /* DemoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1F379329AF4FF700F52688 /* DemoViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 		EE1F378A29AF4B7300F52688 /* TransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
 		EE1F378C29AF4BFE00F52688 /* TransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitioningDelegate.swift; sourceTree = "<group>"; };
 		EE1F378E29AF4C5500F52688 /* UIViewController+ZCXPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ZCXPopup.swift"; sourceTree = "<group>"; };
-		EE1F379129AF4FE800F52688 /* Demo1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1ViewController.swift; sourceTree = "<group>"; };
-		EE1F379329AF4FF700F52688 /* Demo1ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Demo1ViewController.storyboard; sourceTree = "<group>"; };
+		EE1F379129AF4FE800F52688 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		EE1F379329AF4FF700F52688 /* DemoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DemoViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 				EE1F377229AF4A3700F52688 /* AppDelegate.swift */,
 				EE1F377429AF4A3700F52688 /* SceneDelegate.swift */,
 				EE1F377629AF4A3700F52688 /* ViewController.swift */,
-				EE1F379129AF4FE800F52688 /* Demo1ViewController.swift */,
-				EE1F379329AF4FF700F52688 /* Demo1ViewController.storyboard */,
+				EE1F379129AF4FE800F52688 /* DemoViewController.swift */,
+				EE1F379329AF4FF700F52688 /* DemoViewController.storyboard */,
 				EE1F379029AF4DB700F52688 /* ZCXPopoup */,
 				EE1F377829AF4A3700F52688 /* Main.storyboard */,
 				EE1F377B29AF4A3900F52688 /* Assets.xcassets */,
@@ -156,7 +156,7 @@
 			files = (
 				EE1F377F29AF4A3900F52688 /* LaunchScreen.storyboard in Resources */,
 				EE1F377C29AF4A3900F52688 /* Assets.xcassets in Resources */,
-				EE1F379429AF4FF700F52688 /* Demo1ViewController.storyboard in Resources */,
+				EE1F379429AF4FF700F52688 /* DemoViewController.storyboard in Resources */,
 				EE1F377A29AF4A3700F52688 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,7 +171,7 @@
 				EE1F378929AF4AB900F52688 /* ZCXPopoup.swift in Sources */,
 				EE1F378729AF4A9A00F52688 /* PresentationController.swift in Sources */,
 				EE1F377729AF4A3700F52688 /* ViewController.swift in Sources */,
-				EE1F379229AF4FE800F52688 /* Demo1ViewController.swift in Sources */,
+				EE1F379229AF4FE800F52688 /* DemoViewController.swift in Sources */,
 				EE1F378F29AF4C5500F52688 /* UIViewController+ZCXPopup.swift in Sources */,
 				EE1F377329AF4A3700F52688 /* AppDelegate.swift in Sources */,
 				EE1F378B29AF4B7300F52688 /* TransitionAnimator.swift in Sources */,

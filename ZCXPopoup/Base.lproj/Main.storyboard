@@ -16,21 +16,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="WhI-Xx-vSn">
-                                <rect key="frame" x="96.666666666666686" y="744" width="200" height="44"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WhI-Xx-vSn">
+                                <rect key="frame" x="96.666666666666686" y="680" width="200" height="108"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gr4-EN-e3X">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="S2Z-uG-EKV"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Show"/>
                                         <connections>
                                             <action selector="showPopoup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xxp-bO-3G9"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goV-Zi-Y1z">
+                                        <rect key="frame" x="0.0" y="64" width="200" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="Fl4-pe-ro8"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Show With Navigation"/>
+                                        <connections>
+                                            <action selector="showPopoupWithNavigation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9lY-NF-5pA"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="CMX-eL-aY1"/>
-                                    <constraint firstAttribute="height" constant="44" id="qMo-tL-FdY"/>
                                 </constraints>
                             </stackView>
                         </subviews>

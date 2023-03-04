@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Demo1 View Controller-->
+        <!--Demo View Controller-->
         <scene sceneID="J67-5U-n2O">
             <objects>
-                <viewController restorationIdentifier="Demo1ViewController" storyboardIdentifier="Demo1ViewController" id="1Fb-1k-gaf" customClass="Demo1ViewController" customModule="ZCXPopoup" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="DemoViewController" storyboardIdentifier="DemoViewController" id="1Fb-1k-gaf" customClass="DemoViewController" customModule="ZCXPopoup" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ABw-gB-8EI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,6 +102,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button" destination="OH4-Mj-LAg" id="jZZ-jJ-92U"/>
                         <outlet property="contentView" destination="xkn-H7-i07" id="f0T-4D-VFx"/>
                     </connections>
                 </viewController>
