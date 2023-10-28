@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension ZCXPopoup {
+extension ZCXPopup {
 
     class TransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning {
 

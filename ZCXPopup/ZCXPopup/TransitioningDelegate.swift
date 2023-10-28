@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension ZCXPopoup {
+extension ZCXPopup {
 
     class TransitioningDelegate: NSObject, UIViewControllerTransitioningDelegate {
 

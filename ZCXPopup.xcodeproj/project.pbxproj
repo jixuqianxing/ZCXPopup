@@ -14,7 +14,7 @@
 		EE1F377C29AF4A3900F52688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1F377B29AF4A3900F52688 /* Assets.xcassets */; };
 		EE1F377F29AF4A3900F52688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1F377D29AF4A3900F52688 /* LaunchScreen.storyboard */; };
 		EE1F378729AF4A9A00F52688 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F378629AF4A9A00F52688 /* PresentationController.swift */; };
-		EE1F378929AF4AB900F52688 /* ZCXPopoup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F378829AF4AB900F52688 /* ZCXPopoup.swift */; };
+		EE1F378929AF4AB900F52688 /* ZCXPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F378829AF4AB900F52688 /* ZCXPopup.swift */; };
 		EE1F378B29AF4B7300F52688 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F378A29AF4B7300F52688 /* TransitionAnimator.swift */; };
 		EE1F378D29AF4BFE00F52688 /* TransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F378C29AF4BFE00F52688 /* TransitioningDelegate.swift */; };
 		EE1F378F29AF4C5500F52688 /* UIViewController+ZCXPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F378E29AF4C5500F52688 /* UIViewController+ZCXPopup.swift */; };
@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE1F376F29AF4A3700F52688 /* ZCXPopoup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCXPopoup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1F376F29AF4A3700F52688 /* ZCXPopup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCXPopup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1F377229AF4A3700F52688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE1F377429AF4A3700F52688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EE1F377629AF4A3700F52688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,7 +32,7 @@
 		EE1F377E29AF4A3900F52688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE1F378029AF4A3900F52688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE1F378629AF4A9A00F52688 /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
-		EE1F378829AF4AB900F52688 /* ZCXPopoup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCXPopoup.swift; sourceTree = "<group>"; };
+		EE1F378829AF4AB900F52688 /* ZCXPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCXPopup.swift; sourceTree = "<group>"; };
 		EE1F378A29AF4B7300F52688 /* TransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
 		EE1F378C29AF4BFE00F52688 /* TransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitioningDelegate.swift; sourceTree = "<group>"; };
 		EE1F378E29AF4C5500F52688 /* UIViewController+ZCXPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ZCXPopup.swift"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		EE1F376629AF4A3700F52688 = {
 			isa = PBXGroup;
 			children = (
-				EE1F377129AF4A3700F52688 /* ZCXPopoup */,
+				EE1F377129AF4A3700F52688 /* ZCXPopup */,
 				EE1F377029AF4A3700F52688 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +62,12 @@
 		EE1F377029AF4A3700F52688 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE1F376F29AF4A3700F52688 /* ZCXPopoup.app */,
+				EE1F376F29AF4A3700F52688 /* ZCXPopup.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE1F377129AF4A3700F52688 /* ZCXPopoup */ = {
+		EE1F377129AF4A3700F52688 /* ZCXPopup */ = {
 			isa = PBXGroup;
 			children = (
 				EE1F377229AF4A3700F52688 /* AppDelegate.swift */,
@@ -75,33 +75,33 @@
 				EE1F377629AF4A3700F52688 /* ViewController.swift */,
 				EE1F379129AF4FE800F52688 /* DemoViewController.swift */,
 				EE1F379329AF4FF700F52688 /* DemoViewController.storyboard */,
-				EE1F379029AF4DB700F52688 /* ZCXPopoup */,
+				EE1F379029AF4DB700F52688 /* ZCXPopup */,
 				EE1F377829AF4A3700F52688 /* Main.storyboard */,
 				EE1F377B29AF4A3900F52688 /* Assets.xcassets */,
 				EE1F377D29AF4A3900F52688 /* LaunchScreen.storyboard */,
 				EE1F378029AF4A3900F52688 /* Info.plist */,
 			);
-			path = ZCXPopoup;
+			path = ZCXPopup;
 			sourceTree = "<group>";
 		};
-		EE1F379029AF4DB700F52688 /* ZCXPopoup */ = {
+		EE1F379029AF4DB700F52688 /* ZCXPopup */ = {
 			isa = PBXGroup;
 			children = (
-				EE1F378829AF4AB900F52688 /* ZCXPopoup.swift */,
+				EE1F378829AF4AB900F52688 /* ZCXPopup.swift */,
 				EE1F378629AF4A9A00F52688 /* PresentationController.swift */,
 				EE1F378A29AF4B7300F52688 /* TransitionAnimator.swift */,
 				EE1F378C29AF4BFE00F52688 /* TransitioningDelegate.swift */,
 				EE1F378E29AF4C5500F52688 /* UIViewController+ZCXPopup.swift */,
 			);
-			path = ZCXPopoup;
+			path = ZCXPopup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE1F376E29AF4A3700F52688 /* ZCXPopoup */ = {
+		EE1F376E29AF4A3700F52688 /* ZCXPopup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE1F378329AF4A3900F52688 /* Build configuration list for PBXNativeTarget "ZCXPopoup" */;
+			buildConfigurationList = EE1F378329AF4A3900F52688 /* Build configuration list for PBXNativeTarget "ZCXPopup" */;
 			buildPhases = (
 				EE1F376B29AF4A3700F52688 /* Sources */,
 				EE1F376C29AF4A3700F52688 /* Frameworks */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = ZCXPopoup;
+			name = ZCXPopup;
 			productName = ZCXPopoup;
-			productReference = EE1F376F29AF4A3700F52688 /* ZCXPopoup.app */;
+			productReference = EE1F376F29AF4A3700F52688 /* ZCXPopup.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EE1F376A29AF4A3700F52688 /* Build configuration list for PBXProject "ZCXPopoup" */;
+			buildConfigurationList = EE1F376A29AF4A3700F52688 /* Build configuration list for PBXProject "ZCXPopup" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE1F376E29AF4A3700F52688 /* ZCXPopoup */,
+				EE1F376E29AF4A3700F52688 /* ZCXPopup */,
 			);
 		};
 /* End PBXProject section */
@@ -168,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE1F378929AF4AB900F52688 /* ZCXPopoup.swift in Sources */,
+				EE1F378929AF4AB900F52688 /* ZCXPopup.swift in Sources */,
 				EE1F378729AF4A9A00F52688 /* PresentationController.swift in Sources */,
 				EE1F377729AF4A3700F52688 /* ViewController.swift in Sources */,
 				EE1F379229AF4FE800F52688 /* DemoViewController.swift in Sources */,
@@ -324,7 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZCXPopoup/Info.plist;
+				INFOPLIST_FILE = ZCXPopup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zcx.ZCXPopoup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcx.ZCXPopup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -351,7 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ZCXPopoup/Info.plist;
+				INFOPLIST_FILE = ZCXPopup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -362,7 +362,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zcx.ZCXPopoup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zcx.ZCXPopup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE1F376A29AF4A3700F52688 /* Build configuration list for PBXProject "ZCXPopoup" */ = {
+		EE1F376A29AF4A3700F52688 /* Build configuration list for PBXProject "ZCXPopup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE1F378129AF4A3900F52688 /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE1F378329AF4A3900F52688 /* Build configuration list for PBXNativeTarget "ZCXPopoup" */ = {
+		EE1F378329AF4A3900F52688 /* Build configuration list for PBXNativeTarget "ZCXPopup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE1F378429AF4A3900F52688 /* Debug */,

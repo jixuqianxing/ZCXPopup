@@ -7,4 +7,4 @@
 
 import UIKit
 
-struct ZCXPopoup {}
+struct ZCXPopup {}

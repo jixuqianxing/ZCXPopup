@@ -28,8 +28,8 @@ extension UIViewController {
     }
 
     /// transitioningDelegate 实现类
-    private var popupTransitioningDelegate: ZCXPopoup.TransitioningDelegate {
-        lazyVarAssociatedObject { ZCXPopoup.TransitioningDelegate() }
+    private var popupTransitioningDelegate: ZCXPopup.TransitioningDelegate {
+        lazyVarAssociatedObject { ZCXPopup.TransitioningDelegate() }
     }
 }
 
