@@ -1,4 +1,4 @@
-# ZCXPopoup
+# ZCXPopup
 
 ![](https://github.com/jixuqianxing/ZCXPopoup/blob/main/Images/popup.gif)
 
